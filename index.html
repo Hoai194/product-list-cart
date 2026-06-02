@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  
+</head>
+<body>
+  <div class="container">
+    <div class="product-wrapper">
+      <h2>Desserts</h2>
+      <ul class="product-list"></ul>
+    </div>
+    <div class="cart-wrapper">
+      <h2>Your Cart (<span class="count">0</span>)</h2>
+      <ul class="cart-list"></ul>
+      <div class="empty">
+        <img src="./assets/images/illustration-empty-cart.svg" alt="">
+        <p>Your added items will appear here</p>
+      </div>
+      <div class="order">
+          <div>
+            <h3>Order Total</h3>
+            <h1 class="total-price">0</h1>
+          </div>
+          <div>
+                <img src="./assets/images/icon-carbon-neutral.svg">
+                <p>This is a <span>carbon-neutral</span> delivery</p>
+            </div>
+            <button class="order-btn">Confirm Order</button>
+      </div>
+    </div>
+
+    <div class="order-confirmation-wrapper">
+      <div class="confirmed-order">
+        <img src="/assets/images/icon-order-confirmed.svg">
+        <h1>Order Confirmed</h1>
+        <p>We hope you enjoy your food</p>
+        <div>
+          <ul class="confirmed-cart-list"></ul>
+          <div class="total-order">
+            <h3>Order Total</h3>
+            <h1 class="confirmed-total-price">0</h1>
+          </div>
+        </div>
+        <button class="new-order-btn">Start New Order</button>
+      </div>
+      
+      
+    
+      
+
+    </div>
+  </div>
+  
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
